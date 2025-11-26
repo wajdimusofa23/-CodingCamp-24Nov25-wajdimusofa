@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0d1117;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: #161b22;
+  padding: 20px;
+  border-radius: 10px;
+  width: 500px;
+  box-shadow: 0 0 10px #00000055;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+  justify-content : center;
+}
+
+.input-group input,
+button {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+}
+
+#addBtn {
+  background: #6366f1;
+  color: white;
+  cursor: pointer;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+button {
+  cursor: pointer;
+}
+
+button.danger {
+  background: #ef4444;
+  color: white;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #0d1117;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+.empty {
+  text-align: center;
+  color: #888;
+}
